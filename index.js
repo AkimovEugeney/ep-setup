@@ -5,7 +5,7 @@ const path = require('path');
 
 const templates = [
   { src: path.join(__dirname, '.prettier.template.json'), dest: '.prettierrc' },
-  { src: path.join(__dirname, '.eslintrc.template.json'), dest: '.eslintrc.js' }
+  { src: path.join(__dirname, '.eslintrc.template.js'), dest: '.eslintrc.js' }
 ];
 
 templates.forEach(({ src, dest }) => {
