@@ -5,9 +5,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/твой-юзернейм/ep-setup.git"
+    "url": "https://github.com/AkimovEugeney/ep-setup.git"
   },
-  "homepage": "https://github.com/твой-юзернейм/ep-setup#readme",
+  "homepage": "https://github.com/AkimovEugeney/ep-setup#readme",
   "bin": {
     "eslint-prettier-setup": "index.js"
   },
