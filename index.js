@@ -8,15 +8,13 @@ const templates = [
   { src: path.join(__dirname, '.eslintrc.template.js'), dest: '.eslintrc.js' }
 ];
 
+// Копируем шаблоны и перезаписываем существующие файлы
 templates.forEach(({ src, dest }) => {
   const destPath = path.join(process.cwd(), dest);
 
-  if (!fs.existsSync(destPath)) {
-    fs.copyFileSync(src, destPath);
-    console.log(`✅ ${dest} создан из шаблона!`);
-  } else {
-    console.log(`⚠️ ${dest} уже существует, пропускаем...`);
-  }
+  // Всегда перезаписываем файл
+  fs.copyFileSync(src, destPath);
+  console.log(`✅ ${dest} перезаписан из шаблона!`);
 });
 
 // Устанавливаем зависимости
