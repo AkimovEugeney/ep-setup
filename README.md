@@ -10,9 +10,8 @@ Ep-setup 🚀
 
 If you don't want to install ep-setup globally, simply run:
 
-shCopy
+```npx ep-setup```
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npx ep-setup   `
 
 📌 Description
 --------------
@@ -112,8 +111,6 @@ This project is licensed under the MIT License. See the [LICENSE](https://licen
 
 Run the following command to set up your project:
 
-shCopy
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npx ep-setup   `
+```npx ep-setup```
 
 Enjoy clean and consistent code! 🎉
